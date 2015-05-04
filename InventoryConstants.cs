@@ -10,7 +10,8 @@ namespace InventoryManagement.Model
     {
         asc = 1,
         desc = 2,
-		anythingelse = 3
+		anythingelse = 3,
+		onemore = 4
     }
 
     public enum SearchOperator
@@ -21,7 +22,8 @@ namespace InventoryManagement.Model
         lessthanequal,
         greaterthan,
         greaterthanequal,
-        like
+        like,
+		onegoeshere
     }
 
     public enum SearchField
@@ -46,7 +48,8 @@ namespace InventoryManagement.Model
         SalesOrderInProgressToOnHold = 64, // +
         SalesOrderInProgressToCancelled = 128, // +
         PositiveAdjustment = 256, // +
-        NegativeAdjustment = 512 // -
+        NegativeAdjustment = 512, // -
+		AndOneMore = 1024
     }
 
     public enum SalesOrderState
