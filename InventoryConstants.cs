@@ -11,7 +11,8 @@ namespace InventoryManagement.Model
         asc = 1,
         desc = 2,
 		master1 = 3,
-		master2 = 4
+		master2 = 4,
+		feature1 = 5
     }
 
     public enum SearchOperator
