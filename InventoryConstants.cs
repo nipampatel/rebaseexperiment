@@ -10,9 +10,14 @@ namespace InventoryManagement.Model
     {
         asc = 1,
         desc = 2,
+<<<<<<< HEAD
 		iammakingthreehere=3,
 		anythingelse = 4,
 		onemore = 5
+=======
+		anythingelse = 3,
+		onemore = 4
+>>>>>>> b863c1e444634a1e2115ba2f61e4f54259419cbb
     }
 
     public enum SearchOperator
