@@ -9,7 +9,8 @@ namespace InventoryManagement.Model
     public enum SortOrder
     {
         asc = 1,
-        desc = 2
+        desc = 2,
+		feature1 = 3
     }
 
     public enum SearchOperator
